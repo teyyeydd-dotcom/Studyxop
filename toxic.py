@@ -282,7 +282,7 @@ async def react_handler(_, message):
             await client.send_reaction(
                 chat_id=chat_id,
                 message_id=message_id,
-                emoji=random.choice(reactions)
+                emoji=random.choice(REACTIONS)
             )
 
             success += 1
