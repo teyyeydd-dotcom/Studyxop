@@ -1,0 +1,3 @@
+pyrogram
+tgcrypto
+py-tgcalls>=2.0.0
